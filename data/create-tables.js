@@ -20,7 +20,7 @@ async function run() {
                 CREATE TABLE games (
                     id SERIAL PRIMARY KEY NOT NULL,
                     name VARCHAR(512) NOT NULL,
-                    genre INTEGER NOT NULL,
+                    genre VARCHAR(300) NOT NULL,
                     price DECIMAL NOT NULL,
                     rating DECIMAL NOT NULL,
                     mature BOOLEAN NOT NULL,
