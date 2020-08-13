@@ -3,7 +3,7 @@ module.exports = [{
   genre: 'Shooter',
   price: 59.99,
   rating: 3.5,
-  // image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTjRrPeT2f9eG6p7DDHLGvFPVCJLsAmahnjqpd0d115mnD7v9JvWFEmPpPNj94cWFaECh1ATa9WfCUn-slNFMsF343ncnMpHZjk26ne-vU&usqp=CAY',
+  image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTjRrPeT2f9eG6p7DDHLGvFPVCJLsAmahnjqpd0d115mnD7v9JvWFEmPpPNj94cWFaECh1ATa9WfCUn-slNFMsF343ncnMpHZjk26ne-vU&usqp=CAY',
   mature: true,
 },
 {
@@ -11,7 +11,7 @@ module.exports = [{
   genre: 'RPG',
   price: 19.99,
   rating: 4.8,
-  // image: 'https://i.ebayimg.com/images/g/96QAAOSwkxNewxUN/s-l640.png',
+  image: 'https://i.ebayimg.com/images/g/96QAAOSwkxNewxUN/s-l640.png',
   mature: true,
 },
 {
@@ -19,7 +19,7 @@ module.exports = [{
   genre: 'RPG',
   price: 21.50,
   rating: 4.5,
-  // image: 'https://i.ebayimg.com/images/g/2NQAAOSwgPhez~6b/s-l500.jpg',
+  image: 'https://i.ebayimg.com/images/g/2NQAAOSwgPhez~6b/s-l500.jpg',
   mature: true,
 },
 {
@@ -27,7 +27,7 @@ module.exports = [{
   genre: 'Action-Adventure',
   price: 19.99,
   rating: 5.0,
-  // image: 'https://i.ebayimg.com/images/g/cI4AAOSwu1Je84jO/s-l500.jpg',
+  image: 'https://i.ebayimg.com/images/g/cI4AAOSwu1Je84jO/s-l500.jpg',
   mature: true,
 },
 {
@@ -35,7 +35,7 @@ module.exports = [{
   genre: 'Action-Adventure',
   price: 35.99,
   rating: 4.6,
-  // image: 'https://media.gamestop.com/i/gamestop/11098173/Red-Dead-Redemption-2-Special-Edition?$pdp$&bg=rg(0,0,0)',
+  image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSQlwDf_K9gphSxWR3PsF4zTAeNT6to7lQT4-DPpNg0SqST2fpOxNh6IEeEt85Jryzd1qNNA3rproVoAjTf3eFeRfLe5WSw&usqp=CAE',
   mature: true,
 },
 {
@@ -43,7 +43,7 @@ module.exports = [{
   genre: 'Action-Adventure',
   price: 59.99,
   rating: 4.2,
-  // image: 'https://d8mkdcmng3.imgix.net/715a/pc-and-video-games-games-xbox-one-star-wars-jedi-fallen-orderjpg?auto=format&bg=0FFF&fit=fill&h=600&q=100&w=600&s=8305eaddc1e7c4941a1b66120af61729',
+  image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTmC7E5IwZVF35vzmwJ9rNNpRZlNdWSKssXn9wWCk5YVcjhzlU64-rdQc7bH1AnYO7E7F7hArEW_rjQ16PD4aJcTvwfqoVB0MUxpG70SrpG&usqp=CAE',
   mature: false,
 },
 {
@@ -51,7 +51,7 @@ module.exports = [{
   genre: 'Simulator',
   price: 59.99,
   rating: 5.0,
-  // image: 'https://s3.gaming-cdn.com/images/products/5582/271x377/microsoft-flight-simulator-cover.jpg',
+  image: 'https://s3.gaming-cdn.com/images/products/5582/271x377/microsoft-flight-simulator-cover.jpg',
   mature: false,
 },
 {
@@ -59,7 +59,7 @@ module.exports = [{
   genre: 'Action-Adventure',
   price: 59.99,
   rating: 5.0,
-  // image: 'https://cdn.shopify.com/s/files/1/2036/5517/products/SP1013705110992281_2000x.jpg?v=1595434269',
+  image: 'https://cdn.shopify.com/s/files/1/2036/5517/products/SP1013705110992281_2000x.jpg?v=1595434269',
   mature: true,
 },
 ];
