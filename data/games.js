@@ -1,5 +1,7 @@
 module.exports = [{
-  name: 'Call of Duty Modern Warfare',
+  id: 1,
+  name: 'CoD Modern Warfare',
+  platform_id: 1,
   genre: 'Shooter',
   price: 59.99,
   rating: 3.5,
@@ -7,7 +9,9 @@ module.exports = [{
   mature: true,
 },
 {
+  id: 2,
   name: 'The Witcher III',
+  platform_id: 2,
   genre: 'RPG',
   price: 19.99,
   rating: 4.8,
@@ -15,7 +19,9 @@ module.exports = [{
   mature: true,
 },
 {
+  id: 3,
   name: 'Dark Souls 3',
+  platform_id: 4,
   genre: 'RPG',
   price: 21.50,
   rating: 4.5,
@@ -23,7 +29,9 @@ module.exports = [{
   mature: true,
 },
 {
+  id: 4,
   name: 'Grand Theft Auto IV',
+  platform_id: 1,
   genre: 'Action-Adventure',
   price: 19.99,
   rating: 5.0,
@@ -31,7 +39,9 @@ module.exports = [{
   mature: true,
 },
 {
+  id: 5,
   name: 'Red Dead Redemption 2',
+  platform_id: 2,
   genre: 'Action-Adventure',
   price: 35.99,
   rating: 4.6,
@@ -39,7 +49,9 @@ module.exports = [{
   mature: true,
 },
 {
+  id: 6,
   name: 'Star Wars Jedi Fallen Order',
+  platform_id: 2,
   genre: 'Action-Adventure',
   price: 59.99,
   rating: 4.2,
@@ -47,7 +59,9 @@ module.exports = [{
   mature: false,
 },
 {
+  id: 7,
   name: 'Flight Simulator 2020',
+  platform_id: 3,
   genre: 'Simulator',
   price: 59.99,
   rating: 5.0,
@@ -55,7 +69,9 @@ module.exports = [{
   mature: false,
 },
 {
+  id: 8,
   name: 'CyberPunk',
+  platform_id: 1,
   genre: 'Action-Adventure',
   price: 59.99,
   rating: 5.0,
