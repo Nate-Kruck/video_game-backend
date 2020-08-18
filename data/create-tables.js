@@ -19,7 +19,7 @@ async function run() {
                 );
                 
                 CREATE TABLE gamingPlatform (
-                  id SERIAL PRIMARY KEY NOT NULL,
+                  id SERIAL PRIMARY KEY,
                   name VARCHAR(256) NOT NULL
                 );
                 
