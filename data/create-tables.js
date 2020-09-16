@@ -26,17 +26,17 @@ async function run() {
                 CREATE TABLE games (
                   id SERIAL PRIMARY KEY NOT NULL,
                   name VARCHAR(512) NOT NULL,
-                  platform_id INTEGER NOT NULL REFERENCES gamingPlatform(id),
+                  platform_id INT NOT NULL REFERENCES gamingPlatform(id),
                   genre VARCHAR(300) NOT NULL,
                   price DECIMAL NOT NULL,
                   rating DECIMAL NOT NULL,
-                  mature BOOLEAN NOT NULL,
+                  mature BOOLEAN,
                   image VARCHAR(512) NOT NULL
+                );
+                `);
                   
-                  );
                   
 
-                  `);
                   
     console.log('create tables complete', getEmoji(), getEmoji(), getEmoji());
   } catch(err) {

@@ -1,45 +1,45 @@
-require('dotenv').config();
+// require('dotenv').config();
 
-const { execSync } = require('child_process');
+// const { execSync } = require('child_process');
 
-const fakeRequest = require('supertest');
-const app = require('../lib/app');
-const client = require('../lib/client');
+// const fakeRequest = require('supertest');
+// const app = require('../lib/app');
+// const client = require('../lib/client');
 
-describe('app routes', () => {
-  beforeAll(done => {
-    return client.connect(done);
-  });
+// describe('app routes', () => {
+//   beforeAll(done => {
+//     return client.connect(done);
+//   });
 
-  beforeEach(() => {
-    // TODO: ADD DROP SETUP DB SCRIPT
-    execSync('npm run setup-db');
-  });
+//   beforeEach(() => {
+//     // TODO: ADD DROP SETUP DB SCRIPT
+//     execSync('npm run setup-db');
+//   });
 
-  afterAll(done => {
-    return client.end(done);
-  });
+//   afterAll(done => {
+//     return client.end(done);
+//   });
 
-  test('returns games', async() => {
+//   test('returns games', async() => {
 
-    const expectation = [
-      {
+//     const expectation = [
+//       {
         
        
-      },
-      {
+//       },
+//       {
         
-      },
-      {
+//       },
+//       {
         
-      }
-    ];
+//       }
+//     ];
 
-    const data = await fakeRequest(app)
-      .get('/games')
-      .expect('Content-Type', /json/)
-      .expect(200);
+//     const data = await fakeRequest(app)
+//       .get('/games')
+//       .expect('Content-Type', /json/)
+//       .expect(200);
 
-    expect(data.body).toEqual(expectation);
-  });
-});
+//     expect(data.body).toEqual(expectation);
+//   });
+// });
