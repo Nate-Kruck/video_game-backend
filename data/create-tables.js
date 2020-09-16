@@ -13,21 +13,31 @@ async function run() {
     // run a query to create tables
     await client.query(`
                 CREATE TABLE users (
-                    id SERIAL PRIMARY KEY,
-                    email VARCHAR(256) NOT NULL,
-                    hash VARCHAR(512) NOT NULL
-                );           
+                  id SERIAL PRIMARY KEY,
+                  email VARCHAR(256) NOT NULL,
+                  hash VARCHAR(512) NOT NULL
+                );
+                
+                CREATE TABLE gamingPlatform (
+                  id SERIAL PRIMARY KEY NOT NULL,
+                  name VARCHAR(256) NOT NULL
+                );
+                
                 CREATE TABLE games (
-                    id SERIAL PRIMARY KEY NOT NULL,
-                    name VARCHAR(512) NOT NULL,
-                    genre INTEGER NOT NULL,
-                    price DECIMAL NOT NULL,
-                    rating DECIMAL NOT NULL,
-                    mature BOOLEAN NOT NULL,
-                    owner_id INTEGER NOT NULL REFERENCES users(id)
-            );
-        `);
+                  id SERIAL PRIMARY KEY NOT NULL,
+                  name VARCHAR(512) NOT NULL,
+                  platform_id INT NOT NULL REFERENCES gamingPlatform(id),
+                  genre VARCHAR(300) NOT NULL,
+                  price DECIMAL NOT NULL,
+                  rating DECIMAL NOT NULL,
+                  mature BOOLEAN,
+                  image VARCHAR(512) NOT NULL
+                );
+                `);
+                  
+                  
 
+                  
     console.log('create tables complete', getEmoji(), getEmoji(), getEmoji());
   } catch(err) {
     // problem? let's see the error...
